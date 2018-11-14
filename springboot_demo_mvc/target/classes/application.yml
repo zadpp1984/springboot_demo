@@ -1,0 +1,18 @@
+spring:
+  http:
+    encoding:
+      force: true
+      enabled: true
+      charset: UTF-8
+  mvc:
+    favicon:
+      enabled: true
+  thymeleaf:
+    cache: false
+server:
+  tomcat:
+    uri-encoding: UTF-8
+logging:
+  file: C:\log\h2.log
+  level:
+    root: info

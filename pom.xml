@@ -6,4 +6,8 @@
   <packaging>pom</packaging>
   <name>springboot demo</name>
   <description>demo</description>
+  <modules>
+  	<module>springboot_demo_mvc</module>
+  	<module>springboot_demo_jpa</module>
+  </modules>
 </project>

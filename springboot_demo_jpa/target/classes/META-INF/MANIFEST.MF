@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: chenanyun
+Build-Jdk: 10.0.1
+Implementation-Title: springboot jpa
+Implementation-Version: 2.1.0.RELEASE
+Implementation-Vendor-Id: org.springframework.boot
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/springboot_demo_jpa
+Created-By: Maven Integration for Eclipse
+
