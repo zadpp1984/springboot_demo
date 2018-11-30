@@ -1,0 +1,15 @@
+spring:
+  mail:
+    host: smtp.softroad.com.cn
+    username: chenay_dl@softroad.com.cn
+    password: chenanyun1
+    default-encoding: utf-8
+    properties:      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: truelogging:
+  file: C:\log\mail.log
+  level:
+    root: info

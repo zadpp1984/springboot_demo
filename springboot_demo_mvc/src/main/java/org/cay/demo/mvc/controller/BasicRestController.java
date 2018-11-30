@@ -1,6 +1,6 @@
 package org.cay.demo.mvc.controller;
 
-import org.cay.demo.mvc.bean.TestBean;
+import org.cay.demo.mvc.TestBean;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;

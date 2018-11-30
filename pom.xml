@@ -9,5 +9,15 @@
   <modules>
   	<module>springboot_demo_mvc</module>
   	<module>springboot_demo_jpa</module>
+  	<module>springboot_demo_mybatis</module>
+  	<module>springboot_mq</module>
+  	<module>springboot_demo_mq_server</module>
+  	<module>springboot_demo_mq_customer</module>
+  	<module>springboot_demo_bean</module>
+  	<module>spring_demo_fastjson</module>
+  	<module>springboot_demo_javamail</module>
+  	<module>springboot_demo_fastjson</module>
+  	<module>springboot_demo_mail</module>
+  	<module>springboot_demo_webfile</module>
   </modules>
 </project>

@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    host: 192.168.20.57
+    port: 5672
+    username: guest
+    password: guest
+server:
+  tomcat:
+    uri-encoding: UTF-8
+logging:
+  file: C:\log\mq_customer.log
+  level:
+    root: info
+

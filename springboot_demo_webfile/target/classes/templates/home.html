@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+	function openMF() {
+		var iTop = (window.screen.height - 30 - 480) / 2;
+		var iLeft = (window.screen.width - 10 - 800) / 2;
+		window.open('./sample/VB727', 'newwindow', 'height=480, width=800, top=' + iTop + ', left=' + iLeft
+				+ ', toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no, resizable=no');
+		newwin = window.open("", "_parent", "");
+		//newwin.close();
+	}
+</script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>SRM</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <h2>大机画面</h2>
+                <p>这是一个大机画面的例子。</p>
+                <p class="text-right">
+                    <a class="btn" onclick="openMF()">View details »</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
