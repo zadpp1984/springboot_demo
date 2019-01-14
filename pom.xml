@@ -19,5 +19,6 @@
   	<module>springboot_demo_fastjson</module>
   	<module>springboot_demo_mail</module>
   	<module>springboot_demo_webfile</module>
+  	<module>springboot_demo_dubbo_server</module>
   </modules>
 </project>
